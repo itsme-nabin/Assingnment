@@ -1,0 +1,136 @@
+/*HOME.HTML*/
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(image/b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+ul{
+	height: 70px;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+
+}
+ul li{
+      display: inline-block;
+      margin: 40px;
+
+
+}
+.web{
+text-align: center;
+	color: red;
+    font-size: 30px;
+    margin-top: 15%;
+
+}
+header{
+	
+    background-size: cover;
+    
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.Nabin{ float: right;
+	margin: 20px;
+	font-size: 30px;
+	display: none;
+
+}
+
+@media(max-width: 900px )
+{
+	ul li a{
+		display: flex;
+		flex-direction: row;
+
+	}
+
+.Nabin{
+	display: block;}
+ul li a{
+	display: none;
+}
+
+
+
+
+.form text{ 
+	display: block;
+	background: black;
+	padding: 10px 20px;
+}
+
+.khatri h1{
+	text-align: center;
+	color: red;
+       
+}
+ 
+.khatri p{
+	text-align: center;
+	color: blue;
+	font-size: 25px;
+	text-decoration: underline;
+
+}
+
+
+cv
+.i{
+	
+}
+.ij{background-color: red;
+	height: 1500px;
+	width: 100%;
+
+}
+/*Portfolio*/
+
+.item{
+     background-color: grey;
+     width: 100%;
+	 padding: 10px;
+	 margin: 40px;
+	 height: 1500px;
+
+
+
+}
+
+.img{
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 60%;
+
+
+}
+.box{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	width: 40%;
+	float: left;
+	border: 2px solid red;
+	height: 30%;
+	background-image: url(image/d.jpg);
+
+}
+
+.box p{
+	color: white;
+	font-size: 20px;
+
+}
